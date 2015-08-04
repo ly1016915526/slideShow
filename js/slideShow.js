@@ -1,4 +1,5 @@
 if(typeof jQuery === "undefined"){
+	console.log('111');
 	throw new Error("slideShow's javascript requires jQuery");
 }
 ;(function($){
