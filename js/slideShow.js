@@ -1,3 +1,6 @@
+if(typeof jQuery === "undefined"){
+	throw new Error("slideShow's javascript requires jQuery");
+}
 ;(function($){
 	//引入css文件
 	if($("head").length){
